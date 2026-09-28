@@ -1,27 +1,17 @@
-# Md Rehan — Data Science Portfolio
+# Md Rehan - Data Science Portfolio
 
-Static, responsive portfolio ready for Netlify or GitHub Pages.
+Personal portfolio website showcasing my Data Science and Machine Learning projects, skills, and resume.
 
-## Files
-- `index.html` — page structure/content
-- `css/style.css` — complete responsive styling
-- `js/script.js` — navigation, scroll progress, reveal animations
-- `assets/` — put your resume PDF here
+## Projects
 
-## Before deploying
-Edit `index.html`:
-- `YOUR_EMAIL@example.com`
-- `YOUR-LINKEDIN`
-- `YOUR-GITHUB`
-- project GitHub URLs
+* Heart Disease Risk Prediction
+* Loan Status Prediction
+* Piranha Risk Scoring
 
-Add your resume as:
-`assets/Md Rehan-Resume.pdf`
+## Technologies
 
-## Netlify
-Drag the whole `kamal_ds_portfolio` folder into Netlify's deploy area, or connect the GitHub repository.
+Python • SQL • Pandas • NumPy • Machine Learning • Statistics • HTML • CSS • JavaScript
 
-## GitHub Pages
-Upload the files to a repository, then enable Pages from repository Settings → Pages → deploy from the main branch.
+## Portfolio
 
-No build process is required.
+Data Science portfolio built as a responsive static website.
