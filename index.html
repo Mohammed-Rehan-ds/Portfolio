@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Md Rehan — Data Science portfolio featuring machine learning projects, skills, and analytics work." />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Md Rehan | Data Scientist Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">M<span>.</span>R</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="assets/Md Rehan-Resume.pdf" download>Resume ↓</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> DATA SCIENCE • MACHINE LEARNING</p>
+        <h1>Turning data into<br><span class="gradient-text">useful decisions.</span></h1>
+        <p class="hero-text">
+          I’m <strong>Md Rehan</strong>, a data science learner focused on Python,
+          statistics, machine learning, and practical problem solving. I build projects
+          that start with the data and end with an interpretable result.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View projects <span>↗</span></a>
+          <a class="btn secondary" href="assets/Md Rehan-Resume.pdf" download>Download resume</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>ML</strong><span>Supervised learning</span></div>
+          <div><strong>Python</strong><span>Data & modeling</span></div>
+          <div><strong>SQL</strong><span>Data querying</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orb"></div>
+        <div class="code-card">
+          <div class="window-bar"><i></i><i></i><i></i><span>model.py</span></div>
+          <pre><code><span class="kw">model</span> = LogisticRegression(
+    max_iter=<span class="num">2000</span>
+)
+
+model.fit(X_train, y_train)
+
+prediction = model.predict(
+    X_test
+)
+
+<span class="comment"># evaluate → learn → improve</span></code></pre>
+        </div>
+        <div class="metric-card">
+          <span>PROJECT RESULT</span>
+          <strong>85.25%</strong>
+          <small>Heart disease model accuracy</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Curious about the <span>why</span> behind the model.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            I’m building my career around data science with a practical, logic-first approach.
+            My current foundation includes Python, SQL, statistics, exploratory data analysis,
+            data preprocessing, and supervised machine learning.
+          </p>
+          <p>
+            My project work has taken me through real decisions that matter in modeling:
+            class balance, missing values, outliers, feature scaling, validation, model
+            comparison, and interpreting performance instead of blindly chasing a score.
+          </p>
+          <div class="about-grid">
+            <div><span>Education</span><strong>BCA</strong><small>Computer Applications</small></div>
+            <div><span>Experience</span><strong>Fresher</strong><small>Project-focused profile</small></div>
+            <div><span>Focus</span><strong>Data Science</strong><small>ML & analytics</small></div>
+            <div><span>Based in</span><strong>Hyderabad</strong><small>Telangana, India</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">02 / TOOLKIT</p>
+          <h2>The stack behind the work.</h2>
+          <p>I’m building depth in the fundamentals first, then extending into advanced ML and deep learning.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card reveal"><div class="icon">Py</div><h3>Python</h3><p>Core Python, data manipulation, modeling workflows.</p><div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span></div></article>
+          <article class="skill-card reveal"><div class="icon">Σ</div><h3>Statistics</h3><p>Probability, distributions, hypothesis testing, model evaluation.</p><div class="tags"><span>Probability</span><span>Z-test</span><span>Validation</span></div></article>
+          <article class="skill-card reveal"><div class="icon">ML</div><h3>Machine Learning</h3><p>Supervised learning with practical preprocessing and evaluation.</p><div class="tags"><span>Logistic Regression</span><span>Regression</span><span>Trees</span><span>SVM</span></div></article>
+          <article class="skill-card reveal"><div class="icon">DB</div><h3>SQL & Data</h3><p>Working toward strong querying and analytical data workflows.</p><div class="tags"><span>SQL</span><span>EDA</span><span>Cleaning</span></div></article>
+          <article class="skill-card reveal"><div class="icon">DL</div><h3>Deep Learning</h3><p>Next-stage focus after strengthening classical ML foundations.</p><div class="tags"><span>Neural Networks</span><span>DL</span></div></article>
+          <article class="skill-card reveal"><div class="icon">GH</div><h3>Tools & Workflow</h3><p>GitHub, notebooks, documentation, and recruiter-ready project presentation.</p><div class="tags"><span>GitHub</span><span>Jupyter</span><span>VS Code</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / PROJECTS</p>
+          <h2>Proof, not just a list of skills.</h2>
+          <p>Each project highlights the reasoning behind the pipeline, not just the algorithm name.</p>
+        </div>
+
+        <article class="project featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-main">
+            <div class="project-top"><span class="project-type">SUPERVISED ML</span><span class="project-status">Completed</span></div>
+            <h3>Heart Disease Risk Prediction</h3>
+            <p>
+              Built a classification workflow to predict the <strong>TenYearCHD</strong> target.
+              The work included data cleaning, feature/target separation, standardization,
+              logistic regression, and performance evaluation.
+            </p>
+            <div class="project-metrics">
+              <div><strong>85.25%</strong><span>Accuracy</span></div>
+              <div><strong>Logistic</strong><span>Regression</span></div>
+              <div><strong>CHD</strong><span>10-year target</span></div>
+            </div>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>EDA</span></div>
+            <div class="project-actions">
+              <a href="#" class="text-link github-link">GitHub ↗</a>
+              <a href="#approach" class="text-link">Methodology ↓</a>
+            </div>
+          </div>
+          <div class="project-art heart-art">
+            <div class="chart-line"></div>
+            <span class="axis a1">risk</span><span class="axis a2">features</span>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">02</div>
+          <div class="project-main">
+            <div class="project-top"><span class="project-type">CLASSIFICATION</span><span class="project-status">In progress</span></div>
+            <h3>Loan Status Prediction</h3>
+            <p>
+              Worked with a dataset of about <strong>70,000 rows</strong> to predict whether a
+              loan would be paid or not paid. Explored class balance, missing values,
+              outliers, preprocessing, Logistic Regression, cross-validation, log loss,
+              and XGBoost experimentation.
+            </p>
+            <div class="project-metrics">
+              <div><strong>70K</strong><span>Rows</span></div>
+              <div><strong>0.50 / 0.50</strong><span>Class balance</span></div>
+              <div><strong>0.90</strong><span>Logistic accuracy</span></div>
+            </div>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>XGBoost</span><span>CV</span></div>
+            <div class="project-actions">
+              <a href="#" class="text-link github-link">GitHub ↗</a>
+              <a href="#approach" class="text-link">Model thinking ↓</a>
+            </div>
+          </div>
+          <div class="project-art loan-art">
+            <div class="bars"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="loan-score">0.90</div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">03</div>
+          <div class="project-main">
+            <div class="project-top"><span class="project-type">RISK / ML</span><span class="project-status">Planned</span></div>
+            <h3>Piranha — Risk Scoring Project</h3>
+            <p>
+              A planned portfolio project designed around risk scoring in a buy/sell
+              scenario. The goal is to turn transaction and customer signals into a
+              measurable risk score that can support practical decisions.
+            </p>
+            <div class="tags"><span>Risk Scoring</span><span>Feature Engineering</span><span>Classification</span><span>Business Logic</span></div>
+            <div class="project-actions">
+              <a href="#contact" class="text-link">Project notes ↗</a>
+            </div>
+          </div>
+          <div class="project-art risk-art"><div class="radar"></div><div class="radar-dot"></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section approach-section" id="approach">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">04 / HOW I WORK</p>
+          <h2>Modeling is the middle, not the whole job.</h2>
+          <p>A practical pipeline for turning messy data into something a business can actually use.</p>
+        </div>
+        <div class="process">
+          <div class="process-step reveal"><span>01</span><h3>Understand</h3><p>Define the target, context, assumptions, and what the prediction is actually supposed to mean.</p></div>
+          <div class="process-step reveal"><span>02</span><h3>Explore</h3><p>Inspect distributions, missing values, outliers, relationships, and class balance before modeling.</p></div>
+          <div class="process-step reveal"><span>03</span><h3>Prepare</h3><p>Clean, transform, encode, scale, and split data while avoiding leakage.</p></div>
+          <div class="process-step reveal"><span>04</span><h3>Model</h3><p>Start with interpretable baselines, compare models, validate, and investigate errors.</p></div>
+          <div class="process-step reveal"><span>05</span><h3>Explain</h3><p>Translate metrics and feature behavior into conclusions a recruiter, stakeholder, or user can understand.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume-section">
+      <div class="container resume-box reveal">
+        <div>
+          <p class="eyebrow">05 / RESUME</p>
+          <h2>One page. The evidence behind it is here.</h2>
+          <p>Keep the resume concise. Let the portfolio carry the project detail.</p>
+        </div>
+        <a class="btn primary" href="assets/Md Rehan-Resume.pdf" download>Download PDF ↓</a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box reveal">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Let’s talk data.</h2>
+        <p>For internships, fresher data-science opportunities, projects, or technical collaboration.</p>
+        <div class="contact-links">
+          <a href="mrmdrehan629@gmail.com" target="_blank" rel="noreferrer">E-mail ↗</a>
+          <a href="https://www.linkedin.com/in/md-rehan-90b0663a8" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/Mohammed-Rehan-ds" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container"><span>© <span id="year"></span> Md Rehan</span><span>Built for data, not decoration.</span></div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
